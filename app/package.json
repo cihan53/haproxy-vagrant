@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "test",
+  "description": "test",
+  "main": "test",
+  "repository": "test",
+  "author": "test",
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon node server.js",
+    "client": "nodemon client.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "dotenv-flow": "^3.2.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
